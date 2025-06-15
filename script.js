@@ -1,3 +1,6 @@
+const numbers = [0,1,2,3,4,5,6,7,8,9]
+const operators = ["*", "/", "+", "-", "="]
+
 function add(a, b) {
     return a + b
 }
@@ -33,8 +36,6 @@ function operate(a, b, op) {
     }
 }
 
-const numbers = [0,1,2,3,4,5,6,7,8,9]
-const operators = ["*", "/", "+", "-"]
 
 numbers.forEach(number => {
     const button = document.createElement("button");
